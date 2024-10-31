@@ -60,25 +60,25 @@
 			</button>
 		</div>
 		<div class="hidden md:block">
-		<div role="button" class="btn btn-circle bg-white">
-			<div class="indicator">
-				<svg
-				xmlns="http://www.w3.org/2000/svg"
-				class="h-5 w-5"
-				fill="none"
-				viewBox="0 0 24 24"
-				stroke="currentColor">
-				<path
-				stroke-linecap="round"
-				stroke-linejoin="round"
-				stroke-width="2"
-				d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-			</svg>
+			<div role="button" class="btn btn-circle bg-white">
+				<div class="indicator">
+					<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="h-5 w-5"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke="currentColor">
+					<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+				</svg>
+			</div>
 		</div>
 	</div>
-	</div>
 	<div class="hidden md:block">
-	<a class="btn bg-arrow rounded-full font-bold">Book Consult <span class="rounded-full bg-black p-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg></span></a>
+		<a class="btn bg-arrow rounded-full font-bold">Book Consult <span class="rounded-full bg-black p-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg></span></a>
 	</div>
 </div>
 
@@ -116,38 +116,67 @@
 </section>
 
 <!-- About Section -->
-<section id="about" class="bg-gray-50 py-16 px-5 lg:px-20">
-	<div class="text-center mb-10">
-		<h2 class="text-3xl font-bold">We design thoughtful, liveable spaces</h2>
-		<p class="text-gray-600 mt-2 max-w-xl mx-auto">The barn house capitalizes on its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
-	</div>
-	<div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
-		<div class="flex items-center space-x-5">
-			<img src="path/to/image1.jpg" alt="Commercial" class="w-32 h-32 object-cover rounded-lg">
-			<div>
-				<h3 class="text-xl font-semibold">Commercial</h3>
-				<p class="text-gray-600">The barn house capitalizes on its blend of rustic charm and modern sophistication.</p>
-				<button class="btn btn-outline btn-sm mt-2">View Details</button>
+<section id="about" class="bg-gray-50 pt-24 pb-16 px-5 lg:px-20 md:flex justify-around">
+	<div class="relative">
+		<div class="hidden md:block">
+		<img class="absolute -top-14 -left-14" src="img/Vector.png" alt="">
+		</div>
+		<div class="flex justify-center md:block">
+		<a href="" class="btn bg-white rounded-full"><span class="rotate-45"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></span></svg> About Us</a>
+		</div>
+		<div class="mb-10 mt-8 text-center md:text-left md:mt-0">
+			<h1 class="text-3xl font-extrabold">We design thoughtful,<br> liveable spaces</h1>
+			<p class="text-gray-600 mt-2 max-w-xl">The barn house capitalizes on its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+		</div>
+		<div class="grid grid-cols-1 gap-10">
+			<div class="flex items-center justify-start bg-white rounded-lg px-6 py-6 gap-4">
+				<img src="img/commercial.png" alt="Commercial" class="object-cover rounded-lg">
+				<div>
+					<h3 class="text-xl font-semibold">Commercial</h3>
+					<p class="text-gray-600">The barn house capitalizes on its blend <br> of rustic charm and modern sophistication.</p>
+				</div>
+			</div>
+			<div class="flex items-center justify-start bg-white rounded-lg px-6 py-6 gap-4">
+				<img src="img/residential.png" alt="Commercial" class="object-cover rounded-lg">
+				<div>
+					<h3 class="text-xl font-semibold">Residential</h3>
+					<p class="text-gray-600">The barn house capitalizes on its blend <br> of rustic charm and modern sophistication.</p>
+				</div>
 			</div>
 		</div>
-		<div class="flex items-center space-x-5">
-			<img src="path/to/image2.jpg" alt="Residential" class="w-32 h-32 object-cover rounded-lg">
-			<div>
-				<h3 class="text-xl font-semibold">Residential</h3>
-				<p class="text-gray-600">The barn house capitalizes on its blend of rustic charm and modern sophistication.</p>
-				<button class="btn btn-outline btn-sm mt-2">View Details</button>
-			</div>
-		</div>
 	</div>
+	<img class="mt-10 md:block" src="img/Rectangle.png" alt="">
 </section>
 
 <!-- Portfolio Section -->
 <section id="portfolio" class="py-16 px-5 lg:px-20 bg-gray-50">
 	<div class="text-center mb-10">
-		<h2 class="text-3xl font-bold">Our Latest Portfolio</h2>
-		<p class="text-gray-600 mt-2 max-w-xl mx-auto">Explore our latest works</p>
+		<a href="" class="btn bg-white rounded-full mb-4"><span class="rotate-45"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></span></svg> How We Work</a>
+		<h2 class="text-3xl font-bold">Our Works Process</h2>
+		<p class="text-gray-600 mt-2 max-w-xl mx-auto">Rinterio crafts exceptional barn-inspired designs that blend rustic charm and modern finesse.</p>
 	</div>
 	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+		<div class="card">
+			<img src="path/to/portfolio1.jpg" alt="Portfolio 1" class="object-cover h-48 w-full">
+			<div class="p-4">
+				<h3 class="text-xl font-semibold">Commercial</h3>
+				<p class="text-gray-600">Blending rustic charm with modernity.</p>
+			</div>
+		</div>
+		<div class="card">
+			<img src="path/to/portfolio1.jpg" alt="Portfolio 1" class="object-cover h-48 w-full">
+			<div class="p-4">
+				<h3 class="text-xl font-semibold">Commercial</h3>
+				<p class="text-gray-600">Blending rustic charm with modernity.</p>
+			</div>
+		</div>
+		<div class="card">
+			<img src="path/to/portfolio1.jpg" alt="Portfolio 1" class="object-cover h-48 w-full">
+			<div class="p-4">
+				<h3 class="text-xl font-semibold">Commercial</h3>
+				<p class="text-gray-600">Blending rustic charm with modernity.</p>
+			</div>
+		</div>
 		<div class="card">
 			<img src="path/to/portfolio1.jpg" alt="Portfolio 1" class="object-cover h-48 w-full">
 			<div class="p-4">
